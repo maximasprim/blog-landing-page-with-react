@@ -1,0 +1,48 @@
+
+.header-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap:20px
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.first{
+    background-image: "url('src/assets/bg-pattern-intro-mobile.svg')";
+    background-color: lightcoral;
+    height:600px;
+    border: 1px solid black;
+    border-radius: 0 0 0 100px;
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.startUp{
+    margin-top: 150px;
+    .intro{
+        padding: 20px;
+
+       .publishing{
+        font-size: 40px;
+       } 
+       .grow{
+        font-size: 20px;
+        font-weight: lighter;
+       }
+    }
+}
