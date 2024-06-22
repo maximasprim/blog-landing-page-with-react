@@ -36,7 +36,7 @@ const Main = () => {
 
       <div className="containerMiddle">
         <div className="middleImg">
-          <img src={ phones} alt="no image" className="middleImgage" />
+          <img src={ phones} alt="no image" className="middleImage" />
         </div>
         <div className="state">
           <h3>State of the Art Infrastructure</h3>
@@ -49,9 +49,9 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="container00">
+      <div className="container000">
         <div className="container-3">
-          <img src={laptop} alt="no image" className="illustrationImg" />
+          <img src={laptop} alt="no image" className="laptopImg" />
         </div>
         <div className="container-0">
           <div className="container-1">

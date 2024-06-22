@@ -1,47 +1,112 @@
-.container-0{
-    display: flex;
-    flex-direction: column;
-    width:80%;
+.container-0 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
 }
-.container-1{
-    display: flex;
-    flex-direction: column;
-    ;
+.container-1 {
+  display: flex;
+  flex-direction: column;
 }
-.container00{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 80px;
+.container00 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+}
+.container000 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
 }
 
-.container-3{
+.container-3 {
+  width: 100%;
+  height: auto;
+  .illustrationImg {
+    width: 100%;
+    height: aut0;
+    margin-right: -250px;
+  }
+  .laptopImg {
+    width: 100%;
+    height: aut0;
+    margin-left: -250px;
+  }
+}
+
+.containerMiddle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 0 100px 0 100px;
+  background-color: rgb(16, 16, 29);
+  height: 300px;
+  margin-top: 50px;
+
+  .state {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  .middleImg {
+    margin-left: 80px;
     width: 100%;
     height: auto;
-    .illustrationImg{
-        width: 100%;
-        height: aut0;
-        margin-right: -200px;
-    }
+  }
 }
 
-.containerMiddle{
+@media screen and (max-width: 640px) {
+  .container00 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .container-1 {
+    width: 100%;
+  }
+  .container-3 {
+    margin-top: 0px;
     align-items: center;
+    justify-content: center;
+  }
+  .illustrationImg {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .container000 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .laptopImg {
+    width: 100%;
+  }
+  .containerMiddle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
-    justify-content: space-between;
-    border: 1px solid black;
-    border-radius: 0 100px 0 100px;
-    background-color: rgb(16, 16, 29);
-    height: 300px;
+    height: auto;
+    border-radius: 0;
+    width: 100%;
+    margin-top: 100px;
 
-    .state{
-        width: 50%;
-        align-items: center;
-        justify-content: center;
+    .middleImg {
+      margin-left: 0px;
+      width: 100%;
+      height: auto;
+
+      .middleImage{
+        width: 100%;
+        height: auto;
+      }
     }
-    .middleImg{
-        margin-left: 80px;
-    }
+  }
+  
 }

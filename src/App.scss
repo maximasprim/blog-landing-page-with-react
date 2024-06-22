@@ -1,9 +1,13 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: 100%;
+  // margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  // background-color: rgb(206, 186, 186);
+  // background-color: hsl(0, 0%, 100%);
+  box-sizing: border-box;
+  // border: 1px solid black;
+  color:  hsl(240, 2%, 79%);
+  
 }
 
 .logo {
